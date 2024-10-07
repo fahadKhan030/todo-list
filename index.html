@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do list</title>
+    <link
+      rel="shortcut icon"
+      href="./images/todo icon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>  
+
+  <body>
+    <div class="main-container">
+      
+      <!-- this the main todo container-->
+      <div class="todo-item">
+        <!-- this is heading of todolist -->
+        <div class="heading">
+          <h2>To-do list</h2>
+          <!-- this is todo icon -->
+          <div class="todo-icon">
+            <img src="./images/todo icon.png" alt="" />
+          </div>
+        </div>
+        <!-- this is input area  for add task  -->
+        <div class="text-area">
+          <input
+            type="text"
+            id="todoText"
+            placeholder="add your task here..."
+            a
+          />
+          <button id="addTaskButton">Add</button>
+        </div>
+        <div class="buttons">
+          <button class="complete-btn" id="completedButton">Completed</button>
+          <button class="progress-btn" id="progressButton">Progress</button>
+        </div>
+
+        <!-- this is ul li place for add task -->
+        <ul id="task-container">
+          <!-- <li class="ok"></li> -->
+        </ul>
+      </div>
+      <script src="./script.js"></script>
+    </div>
+  </body>
+</html>
